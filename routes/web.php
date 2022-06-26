@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Teacher');
 });
 
 Route::get('/ajax',"TeacherController@Index");
